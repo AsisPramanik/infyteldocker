@@ -1,0 +1,6 @@
+com\infosys\infytel\calldetails\InfytelCallDetailsApplication.class
+com\infosys\infytel\calldetails\service\CallDetailsService.class
+com\infosys\infytel\calldetails\repository\CallDetailsRepository.class
+com\infosys\infytel\calldetails\controller\CallDetailsController.class
+com\infosys\infytel\calldetails\entity\CallDetails.class
+com\infosys\infytel\calldetails\dto\CallDetailsDTO.class
