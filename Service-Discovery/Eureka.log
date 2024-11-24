@@ -1,0 +1,53 @@
+2022-02-16 12:58:33.964  INFO 23080 --- [main] c.i.i.e.ServiceDiscoveryApplication      : Starting ServiceDiscoveryApplication using Java 17.0.1 on MYSHEC456439L with PID 23080 (C:\Users\rakeshkumar.s\Downloads\Demos24Nov211637744654767\Demos-24-Nov-21\Step5-Microservices_on_Docker\Service-Discovery\target\classes started by rakeshkumar.s in C:\Users\rakeshkumar.s\Downloads\Demos24Nov211637744654767\Demos-24-Nov-21\Step5-Microservices_on_Docker\Service-Discovery)
+2022-02-16 12:58:33.967  INFO 23080 --- [main] c.i.i.e.ServiceDiscoveryApplication      : No active profile set, falling back to default profiles: default
+2022-02-16 12:58:34.920  INFO 23080 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ec9a6142-e2ba-39bf-8519-109410a6c34a
+2022-02-16 12:58:35.135  INFO 23080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2022-02-16 12:58:35.142  INFO 23080 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-16 12:58:35.143  INFO 23080 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-16 12:58:35.245  INFO 23080 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-16 12:58:35.246  INFO 23080 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1237 ms
+2022-02-16 12:58:35.654  INFO 23080 --- [main] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-02-16 12:58:35.701  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-02-16 12:58:35.702  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-02-16 12:58:35.819  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-02-16 12:58:35.819  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-02-16 12:58:36.888  INFO 23080 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2022-02-16 12:58:36.925  WARN 23080 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-16 12:58:36.938  INFO 23080 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-16 12:58:36.963  INFO 23080 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-16 12:58:36.963  INFO 23080 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2022-02-16 12:58:36.972  INFO 23080 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1644996516971 with initial instances count: 0
+2022-02-16 12:58:37.000  INFO 23080 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2022-02-16 12:58:37.001  INFO 23080 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://infytel-eureka-con:8761/eureka/]
+2022-02-16 12:58:37.158  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2022-02-16 12:58:37.158  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2022-02-16 12:58:37.158  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2022-02-16 12:58:37.159  INFO 23080 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2022-02-16 12:58:37.287  INFO 23080 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://infytel-eureka-con:8761/eureka/
+2022-02-16 12:58:37.310  INFO 23080 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2022-02-16 12:58:37.316  INFO 23080 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2022-02-16 12:58:37.323  INFO 23080 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-16 12:58:37.373  INFO 23080 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application EUREKASERVER with eureka with status UP
+2022-02-16 12:58:37.375  INFO 23080 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2022-02-16 12:58:37.382  INFO 23080 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2022-02-16 12:58:37.382  INFO 23080 --- [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2022-02-16 12:58:37.382  INFO 23080 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2022-02-16 12:58:37.382  INFO 23080 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2022-02-16 12:58:37.382  INFO 23080 --- [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2022-02-16 12:58:37.405  INFO 23080 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2022-02-16 12:58:37.406  INFO 23080 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2022-02-16 12:58:37.430  INFO 23080 --- [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2022-02-16 12:58:37.488  INFO 23080 --- [main] c.i.i.e.ServiceDiscoveryApplication      : Started ServiceDiscoveryApplication in 3.987 seconds (JVM running for 4.751)
+2022-02-16 12:58:38.100  INFO 23080 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-16 12:58:38.101  INFO 23080 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-16 12:58:38.102  INFO 23080 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-02-16 12:59:16.549  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-02-16 12:59:16.550  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application EUREKASERVER with eureka with status DOWN
+2022-02-16 12:59:16.571  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2022-02-16 12:59:16.613  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-02-16 12:59:16.780  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-02-16 12:59:16.780  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2022-02-16 12:59:16.780  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2022-02-16 12:59:16.834  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2022-02-16 12:59:16.863  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-16 12:59:16.869  INFO 23080 --- [RMI TCP Connection(11)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
